@@ -874,6 +874,15 @@ nav .fa-solid{
         background-image: url(images/PHONE_BG.png);
     }
 
+    body:not(.dark) #header {
+        background-image: url(images/PHONE_BG.png);
+    }
+    
+    /* Optional: Define styles for #header when .dark class IS present on the body */
+    body.dark #header {
+        background-image: url(images/PHONE_BG.png); /* Replace with the desired background image for dark mode */
+    }
+
     nav .link-container{
         position: block;
         border-radius: 5px;
@@ -884,9 +893,6 @@ nav .fa-solid{
             font-size: 12px; /* Responsive font size for all child elements */
             margin:1px 0.1; /* Margin to add space between elements */
         }
-
-
-    
 
     .dark-light{
         display: none;
@@ -959,7 +965,84 @@ nav .fa-solid{
     
 }
     
+body:not(.dark) .dark-light {
+    display: none;
+}
 
+body:not(.dark) .header-text {
+    margin-top: 70%;
+    font-size: 35px;
+}
+
+body:not(.dark) .header-text h1 {
+    font-size: 18px;
+}
+
+body:not(.dark) .header-text h3 {
+    font-size: 10px;
+}
+
+body:not(.dark) .sub-title {
+    font-size: 40px;
+}
+
+body:not(.dark) .about-col-1,
+body:not(.dark) .about-col-2,
+body:not(.dark) .layer {
+    flex-basis: 100%;
+}
+
+body:not(.dark) .about-col-1 {
+    margin-bottom: 30px;
+}
+
+body:not(.dark) .about-col-2,
+body:not(.dark) .layer {
+    font-size: 14px;
+}
+
+body:not(.dark) .tab-links {
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+body:not(.dark) .contact-left,
+body:not(.dark) .contact-right {
+    flex-basis: 100%;
+}
+
+body:not(.dark) .watermark {
+    font-size: 14px;
+}
+
+body:not(.dark) .work-list {
+    grid-template-columns: 1fr; 
+    grid-gap: 20px; 
+    margin-top: 30px; 
+    font-size: 12px;
+}
+
+body:not(.dark) .layer {
+    font-size: 12px; 
+    text-align: center; 
+}
+
+body:not(.dark) .layer h3 {
+    font-size: 16px; 
+    margin-bottom: 5px; 
+}
+
+body:not(.dark) .layer p {
+    font-size: 12px; 
+    margin-bottom: 5px; 
+}
+
+body:not(.dark) .layer a {
+    line-height: 20px;
+    width: 30px; 
+    height: 30px; 
+    font-size: 14px; 
+}
 
 
 

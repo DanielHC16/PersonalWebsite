@@ -165,7 +165,11 @@ const body = document.querySelector("body"),
         });
     });
 
-
+    document.addEventListener('DOMContentLoaded', function() {
+      if (window.innerWidth <= 600) {
+        document.body.classList.add('dark');
+      }
+    });
 
 
 

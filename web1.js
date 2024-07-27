@@ -64,7 +64,7 @@ var words = [
 
 
   //contact forms
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbwpICTEbrHh5A-AoSwvAghSYOnwUVcE4znu7kmbVz5LqdW25XIju7o_Tflrlyq8utrzfQ/exec'
+  const scriptURL = 'https://script.google.com/macros/s/AKfycby5b20lpqHLDHdHNyAxiq94OU-0JpxADi8MdcC3KSGpXl4v2JNtjTtOY40CPBWjH28B/exec'
   const form = document.forms['submit-to-google-sheet']
   const msg = document.getElementById("msg")
 
@@ -164,3 +164,8 @@ const body = document.querySelector("body"),
             });
         });
     });
+
+
+
+
+

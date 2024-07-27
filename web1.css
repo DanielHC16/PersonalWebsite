@@ -963,8 +963,6 @@ nav .fa-solid{
         font-size: 14px; 
     }
     
-}
-    
 body:not(.dark) .dark-light {
     display: none;
 }
@@ -1044,7 +1042,7 @@ body:not(.dark) .layer a {
     font-size: 14px; 
 }
 
-
+}
 
 
 

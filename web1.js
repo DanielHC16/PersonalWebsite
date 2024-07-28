@@ -24,7 +24,7 @@ var words = [
     offset = 0,
     len = words.length,
     forwards = true,
-    speed = 75;
+    speed = 60;
   
   var wordflick = function () {
     setInterval(function () {

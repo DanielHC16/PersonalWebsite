@@ -179,7 +179,7 @@ const body = document.querySelector("body"),
     });
 
 // Chat Bot
-import { apiKey } from './apikey.js';
+// import { apiKey } from './apikey.js';
 
 const chatInput = document.querySelector(".chat-input textarea");
 const sendChatBtn = document.querySelector(".chat-input span");
@@ -190,7 +190,7 @@ const chatbotCloseBtn = document.querySelector(".close-btn");
 
 
 let userMessage;
-const API_KEY = apiKey;
+// const API_KEY = apiKey;
 const inputInitHeight = chatInput.scrollHeight;
 
 const createChatLi = (message, className) => {
